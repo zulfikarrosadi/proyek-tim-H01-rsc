@@ -1,0 +1,377 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: #dedede;
+   font-family: 'Ubuntu', sans-serif;
+   overflow-x: hidden;
+}
+
+/* Header */
+.header {
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   padding: 20px 0;
+   background-color: navy;
+   display: flex;
+   align-content: center;
+   justify-content: space-around;
+   z-index: 999;
+}
+
+.header ul {
+   list-style: none;
+}
+
+.logo {
+   color: rgba(255, 255, 255, .8);
+   font-family: 'Ubuntu', sans-serif;
+   letter-spacing: 2px;
+   font-size: 1.8em;
+   display: flex;
+   align-items: center;
+}
+
+.nav-links {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav-links li {
+   margin: 0 20px;
+}
+
+.nav-links a {
+   display: inline-block;
+   text-decoration: none;
+   font-family: Arial;
+   font-size: 1.2em;
+   font-weight: 400;
+   color: white;
+   text-align: center;
+   opacity: .8;
+}
+
+.nav-links li a {
+   transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+   opacity: 1;
+   font-weight: 500;
+}
+
+
+/* Main Profile */
+.main-profile {
+   margin: 100px 0;
+   color: navy;
+}
+
+.main-profile .container {
+   width: 70%;
+   margin: auto;
+}
+
+/* bagian text .main-profile */
+.main-profile .container .text h3 {
+   text-align: center;
+   font-size: 2em;
+   margin: 0 0 20px;
+}
+
+.main-profile .container .text {
+   margin-bottom: 50px;
+}
+
+.main-profile .container .text p {
+   width: 70%;
+   font-size: 20px;
+   text-align: center;
+   margin: 10px auto;
+}
+
+.main-profile .container .flex-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.main-profile .container .flex-container .box {
+   text-align: center;
+   transition: all .3s ease-in-out;
+   border-radius: 20px;
+   padding: 15px;
+   margin: 10px 0;
+   width: 33%;
+   min-width: 180px;
+   box-sizing: border-box;
+}
+
+.main-profile .container .flex-container .box img {
+   width: 60%;
+   border-radius: 50%;
+}
+
+.main-profile .container .flex-container .box:hover {
+   transform: scale(1.05);
+   box-shadow: 6px 9px 15px #c8caca, -6px -9px 15px #eeeaea;
+}
+
+.main-profile .container .flex-container .box .nama {
+   padding-top: 10px;
+   font-size: 1.2em;
+   font-weight: 500;
+}
+
+.main-profile .container .flex-container .box .quotes {
+   margin-top: 5px;
+   font-style: italic;
+   font-size: 1em;
+}
+
+/* Main Karya */
+.karya {
+   margin-bottom: 80px;
+   color: navy;
+}
+
+.container {
+   margin: 0 auto;
+   text-align: center;
+   width: 80%
+}
+
+.tombol {
+   margin-bottom: 50px;
+}
+
+.tombol a {
+   display: inline-block;
+   background-color: #4169E1;
+   box-shadow: 0 4px #000080;
+   border-radius: 4px;
+   padding: 10px 30px;
+   font-size: 1em;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.tombol a:active {
+   position: relative;
+   box-shadow: none;
+   top: 10px;
+}
+
+.galeri {
+   width: 100% !important;
+   display: grid;
+   grid-template-columns: repeat(3, minmax(200px, 1fr));
+   gap: 20px;
+}
+
+.galeri img {
+   width: 100%;
+}
+
+.galeri h3 {
+   padding: 35px;
+   border-bottom: 1px solid navy;
+   margin-bottom: 35px;
+   font-size: 1.8em;
+   grid-column: 1 / -1;
+}
+
+/* Kontak */
+.kontak {
+   background-color: navy;
+   color: white;
+   padding: 20px 0;
+}
+
+.kontak .container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.kontak .left,
+.kontak .right {
+   width: 60%;
+   margin: auto;
+}
+
+.kontak .container {
+   text-align: left;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.kontak .left h2 {
+   font-size: 2em;
+   font-weight: bold;
+}
+
+.kontak .left h3 {
+   font-size: 1.6em;
+   font-weight: bold;
+}
+
+.kontak .right h6 {
+   font-weight: 600;
+   font-size: 1em;
+}
+
+.kontak .right div {
+   margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+   width: 100%;
+   text-align: center;
+   padding: 20px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+footer h3 {
+   color: navy;
+   font-weight: bold;
+   font-size: 1.2em;
+}
+
+footer a {
+   color: rgb(247, 98, 81) !important;
+   text-decoration: none !important;
+}
+
+/* Responsive Breakpoint */
+
+/* Maximal Breakpoints */
+@media (max-width: 576px) {
+   .container {
+      width: 100% !important;
+   }
+
+   .main-profile .container .text p {
+      width: 100%;
+      font-size: 1em;
+   }
+
+   .main-profile .container .flex-container .box {
+      width: 60% !important;
+      margin: auto;
+   }
+
+   .main-profile .container .flex-container .box img {
+      width: 60% !important;
+   }
+
+   .main-profile .container .flex-container .box .nama {
+      font-size: 1.5em;
+   }
+
+   .main-profile .container .flex-container .box .quotes {
+      font-size: 1.1em;
+   }
+
+   /* Gaelri */
+   .galeri {
+      grid-template-columns: 1fr !important;
+   }
+
+   .galeri img {
+      width: 80%;
+      margin: auto;
+   }
+
+   /* Kontak */
+   .kontak .container {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .kontak .left {
+      margin-bottom: 20px;
+   }
+}
+
+@media (max-width: 768px) {
+
+   /* Header */
+   .header {
+      padding: 10px 0;
+   }
+
+   .nav-links {
+      display: block;
+      position: fixed;
+      left: 100%;
+   }
+
+   .nav-links li {
+      margin: 20px 0;
+   }
+
+   /* Main Profile */
+   .container {
+      width: 90% !important;
+      margin: auto;
+   }
+
+   .main-profile .container .text h3 {
+      text-align: center;
+      font-size: 1.6em;
+   }
+
+   .main-profile .container .text p {
+      width: 80%;
+      font-size: 1.1em;
+      text-align: center;
+      margin: 10px auto;
+   }
+
+   .main-profile .container .flex-container .box {
+      width: 40%;
+   }
+
+   .main-profile .container .flex-container .box img {
+      width: 60%;
+   }
+
+   /* Galeri */
+   .galeri {
+      grid-template-columns: repeat(2, minmax(200px, 1fr));
+   }
+}
+
+@media (max-width: 992px) {
+   .container {
+      width: 80%;
+      margin: auto;
+   }
+}
+
+/* Minimal Breakpoints */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+   ...
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   ...
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+   ...
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   ...
+}
