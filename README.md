@@ -3,7 +3,7 @@ Pembuatan sebuah website static secara tim yang bertujuan mengasah kemampuan kom
 
 ### :sunglasses: [Live Preview](https://zulfikar31.github.io/proyek-tim-rsc-H01)
 
-## :wave: Say Hi To Our Team! :wave:
+## :wave: Say Hi To Our Team!
 * :girl: [Ummi Aldiah](https://instagram.com/aldyh22)
 * :girl: [Vinna Riqqa](https://instagram.com/nyctophill_)
 * :boy: [Wahyu](https://instagram.com/ikhwankendari_)
