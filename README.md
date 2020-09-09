@@ -5,7 +5,7 @@ Pembuatan sebuah website static secara tim yang bertujuan mengasah kemampuan kom
 
 ## :wave: Say Hi To Our Team!
 * :girl: [Ummi Aldiah](https://instagram.com/aldyh22)
-* :girl: [Vinna Riqqa](https://instagram.com/nyctophill_)
+* :girl: [Vina Riqqa](https://instagram.com/nyctophill_)
 * :boy: [Wahyu](https://instagram.com/ikhwankendari_)
 * :boy: [Wahyu Agung Laksono](https://instagram.com/wahy.all)
 * :boy: [Zulfikar Rosadi](https://instagram.com/zulfikar_rosadi31)
