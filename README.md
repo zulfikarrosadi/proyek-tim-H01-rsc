@@ -1,7 +1,7 @@
-# Proyek Tim H01 RSC
+# Proyek Tim H01 RSC 2020
 Pembuatan sebuah website static secara tim yang bertujuan mengasah kemampuan komunikasi,pemecahan masalah, rasa bertanggung jawab
 
-### :sunglasses: [Live Preview](https://zulfikar31.github.io/proyek-tim-rsc-H01)
+### :sunglasses: [Live Preview](https://zulfikar31.github.io/proyek-tim-H01-rsc/)
 
 ## :wave: Say Hi To Our Team!
 * :girl: [Ummi Aldiah](https://instagram.com/aldyh22)
